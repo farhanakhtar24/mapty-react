@@ -1,0 +1,50 @@
+.mainForm {
+	/* box-sizing: content-box; */
+	border-radius: 10px;
+	background-color: #42484d;
+	width: 100%;
+}
+
+.mainForm-div {
+	padding: 20px 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px 25px;
+}
+
+.grid-divs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.grid-divs select,
+.grid-divs label,
+.grid-divs input {
+	flex: 1;
+	width: 50%;
+}
+
+.grid-divs label {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.grid-divs select,
+.grid-divs input {
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	outline: none;
+	font-size: 14px;
+	transition: background-color 0.3s;
+}
+
+.grid-divs select:focus,
+.grid-divs input:focus {
+	background-color: white;
+}

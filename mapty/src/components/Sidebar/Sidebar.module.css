@@ -1,0 +1,44 @@
+.Sidebar {
+	min-width: 544px;
+	flex: 4;
+	background-color: #2d3439;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	/* gap: 50px; */
+}
+
+.activites-wrapper {
+	width: 80%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.activites-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.activites-container::-webkit-scrollbar {
+	width: 0;
+}
+
+.logo {
+	margin: 40px;
+	width: 150px;
+	height: auto;
+}
+
+.copyright {
+	color: #aaa;
+}
